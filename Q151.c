@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int josephus(int num , int k){
 	int n = num, t;
 	if(num==1) return 0;
