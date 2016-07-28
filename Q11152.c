@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
 	double a, b, c;
 	double sunflowers, violates, roses, s;
-	while(scanf("%lf %lf %lf", &a, &b, &c)){
+	while(scanf("%lf %lf %lf", &a, &b, &c)==3){
 		s = (a + b + c) / 2;
 		violates = sqrt(s * (s - a) * (s - b) * (s - c));
 		sunflowers = pow((a * b * c) / (4 * violates), 2) * PI;
